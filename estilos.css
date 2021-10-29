@@ -12,6 +12,8 @@ body {
 a {
     text-decoration: none;
     color: black;
+    border: double 15px;
+    padding: 15px;
 }
 /* IMAGEN PORTADA */
 .portada img{
@@ -113,6 +115,14 @@ button{
     color: white;
     letter-spacing: 0.5px;
     border:outset white;
+}
+/* LINK */
+.link a{
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: bold;
+    background-color: #60dab1;
 }
 /* FOOTER */
 footer{
