@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta name="keywords" content="turnos,gimnasio, gym, crossfit, funcional, zumba, jump, musculacion">
+    <title>Turnos / Rompiendo metas</title>
+    <meta name="description"
+        content="Entrenamiento Personalizado. Rutinas Innovadoras. Staff en constante capacitacion, ademas de ser Profesores de Ed. Fisica. Contamos con las mejores actividades. Functional Training. Crossfit. Strong Zumba. Power Jump. Musculación. El Mejor Gimnasio Al Mejor Precio. Cuota Accesible. Te Cuidamos. Tu objetivo es el nuestro.">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <div class="headerMenu">
+        <!-- Header -->
+        <header>
+            <div class="divHeader">
+                <img src="./img/logo.png" alt="logo">
+            </div>
+        </header>
+
+        <nav class="navMenu">
+            <!-- Menu -->
+            <ul>
+                <li>
+                    <a href="turnos.html">Mis Turnos</a>
+                </li>
+            </ul>
+
+        </nav>
+    </div>
+    <!-- Imagen portada -->
+    <div class="portada">
+        <picture>
+            <source media="(min-width: 800px)" srcset="img/portada.jpg">
+            <source media="(min-width: 600px)" srcset="img/800_portada.jpg">
+            <source media="(max-width: 600px)" srcset="img/600_portada.jpg">
+            <img src="img/portada.jpg" alt="foto portada">
+        </picture>
+    </div>
+
+    <div class="titulo">
+        <!-- Titulo -->
+        <h1>Reserva de actividades</h1>
+    </div>
+
+    <section>
+
+        <h2>Rompiendo metas</h2>
+        <!-- Formulario -->
+        <div id="form" class="formulario">
+            <form id="reset">
+                <!-- Datos personales -->
+                <div>
+                    <label for="nombre">Nombre</label>
+                    <span class="asterisco">*</span>
+                </div>
+                <input class="caja" id="nombre" type="text" name="Nombre" placeholder="Agustina Rocha">
+                <!-- Correo electronico -->
+                <div>
+                    <label for="correo electronico">Correo electronico</label>
+                    <span class="asterisco">*</span>
+                </div>
+                <input class="caja" id="correo" type="email" name="email" placeholder="rocha@outlook.com">
+                <!-- Telefono -->
+                <div>
+                    <label for="telefono">Tel/cel</label>
+                    <span class="asterisco">*</span>
+                </div>
+                <div>
+                    <input class="caja" id="tel" type="tel" name="telefono" placeholder="1123456789">
+                </div>
+                <span class="telefonico">Ingrese su numero telefonico sin 0 ni 15</span>
+                <!-- Genero -->
+                <div class="generoDiv">
+                    <label for="sexo">Sexo</label>
+                    <span class="asterisco">*</span>
+                </div>
+                <div id="genero">
+                    <input name="sexo" type="radio" value="hombre">
+                    <label class="genero" for="hombre">Hombre</label>
+                    <input name="sexo" type="radio" value="mujer">
+                    <label class="genero" for="mujer">Mujer</label>
+                </div>
+                <!-- Sucursales -->
+                <div class="generoDiv">
+                    <label for="sucursal">Sucursales</label>
+                </div>
+
+                <select id="agencia" class="caja" name="sucursal">
+                    <option selected disabled hidden>Seleccione una sucursal</option>
+                    <option value="1">Caballito</option>
+                    <option value="2">San Miguel</option>
+                    <option value="3">Moreno</option>
+                    <option value="4">Belgrano</option>
+                </select>
+                <!-- Actividad -->
+                <div class="generoDiv">
+                    <label for="actividad">Actividad</label>
+                </div>
+
+                <select id="entrenamiento" class="caja" name="actividad">
+                    <option selected disabled hidden>Seleccione un servicio</option>
+                    <option value="1">Funcional</option>
+                    <option value="2">Crossfit</option>
+                    <option value="3">Strong Zumba</option>
+                    <option value="4">Levantamiento Olimpico</option>
+                </select>
+                <!-- Horarios -->
+                <div class="generoDiv">
+                    <label for="horario">Horario</label>
+                </div>
+                <select name="horario" id="horario" class="caja">
+                    <option selected disabled hidden value="">Seleccione un horario</option>
+                </select>
+                <!-- Fecha -->
+                <div class="generoDiv">
+                    <label for="date">Fecha</label>
+                    <span class="asterisco">*</span>
+                </div>
+
+                <div>
+                    <input class="caja" type="date" id="fecha" name="fecha">
+                </div>
+
+                <!-- Boton -->
+                <button type="submit">Confirmar turno</button>
+
+            </form>
+            <!-- Dom/Turno asignado -->
+            <div id="turno" class="turno"></div>
+
+            <!-- Sucursales -->
+            <div id="sucursal" class="sucursal"></div>
+
+        </div>
+        
+    </section>
+
+    <footer><!-- Footer -->
+        <p>Rompiendo metas</p>
+        <p>E-mail: rochagustina@outlook.com</p>
+        <p>Telefono: 1163713099</p>
+
+        <div class="divFooter">
+            <img src="/img/facebook.png" alt="facebook">
+            <img src="/img/instagram.png" alt="instagram">
+            <img src="/img/whatsapp.png" alt="whatsapp">
+        </div>
+
+    </footer>
+
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="main.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,216 @@
+/*RESETEO*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*ESTRUCTURA*/
+body {
+    font-family: 'Dosis', sans-serif;
+    width: 100%;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+/* IMAGEN PORTADA */
+.portada img{
+    max-width: 100%;
+}
+/* HEADER/MENU */
+.headerMenu{
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+}
+/* HEADER */
+header{
+    width:40%;
+    text-align: center;
+}
+.divHeader{
+    padding: 15px;
+}
+.divHeader img{
+    width: 70%;
+}
+/* MENU */
+.navMenu {
+    background-color: rgb(98, 235, 189);
+    font-size: 20px;
+    font-weight: bold;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navMenu ul{
+    list-style: none;
+    margin: 10px;
+}
+/* TITULO PRINCIPAL */
+.titulo{
+    margin: 20px;
+}
+.titulo h1{
+    font-size: 28px;
+    text-align: center;
+}
+/* SECCION PRINCIPAL */
+h2{
+    font-size: 25px;
+    margin: 25px 25px;
+    text-align: center;
+}
+form{
+    background-color: rgb(183, 250, 203);
+    border: black groove 10px;
+    border-radius: 30px;
+    padding: 10px;
+}
+/* FORMULARIO */
+.formulario{
+    display: none;
+    width: 80%;
+    margin: auto;
+}
+label {
+    font-size: 20px;
+    font-weight: bold;
+}
+input{
+    margin: 10px 0;
+    padding-left: 10px;
+}
+.caja{
+    width: 100%;
+    border-radius: 8px;
+    border: solid 2px rgb(0, 56, 0);
+    height: 30px;
+}
+.asterisco{
+    color: red;
+}
+.telefonico{
+    color: rgb(73, 71, 71);
+    font-weight: bold;
+    font-size: 14px;
+    margin: 20px;
+}
+.generoDiv{
+    margin-top: 10px;
+}
+.genero{
+    font-size: 16px;
+}
+select{
+    margin-top: 10px;
+}
+button{
+    padding: 10px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    letter-spacing: 0.5px;
+    border:outset white;
+}
+/* FOOTER */
+footer{
+    height: auto;
+    background-image: linear-gradient(45deg, #62ebbd, #232927);
+    margin-top: 20px;
+    font-size: 22px;
+    padding: 30px;
+    font-style: italic;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;    
+}
+footer p{
+    padding: 20px;
+}
+.divFooter img{
+    margin: 0 20px 0 20px;
+}
+/* TURNO ASIGNADO */
+.turno{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 90%;
+    text-transform: uppercase;
+    margin-inline: auto;
+}
+.divTurno{
+    background-color: #60dab1;
+    padding: 20px;
+    border: solid 1px;
+    text-align: center;
+    margin: 0 10px 10px 10px;
+}
+.turno h3{
+    font-size: 22px;
+}
+.turno p{
+    font-size: 20px;
+    font-weight: bold;
+}
+/* SUCURSAL */
+.sucursal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sucursalCaja{
+    margin: 10px;
+    border: ridge 15px #60dab1;
+    border-radius: 20px;
+    background-color: rgb(29, 28, 28);
+    text-align: center;
+    padding: 15px;
+    color: white;
+    width: 50%;
+}
+h4{
+    text-align: center;
+    font-size: 30px;
+    margin: 40px;
+}
+.sucursalCaja h5{
+    font-size: 30px;
+}
+.sucursalCaja p{
+    font-size: 25px;
+}
+/* HISTORIAL DE TURNOS */
+.agenda{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+    margin: 30px;
+}
+#turnos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.divTurnos{
+    border: solid 5px #4eab8c;
+    padding: 10px;
+    font-size: 20px;
+    margin: 30px 20px 10px 20px;
+    background-color: #d9ebe5;
+}
+/* BOTON ELIMINAR TURNOS */
+.eliminar{
+    padding: 10px    ;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    letter-spacing: 0.5px;
+    border: outset white;
+    margin: 10px 35% 5px 35%;    
+}

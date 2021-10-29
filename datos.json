@@ -1,0 +1,31 @@
+[
+    
+    
+    {
+        "id":1, 
+        "nombre":"Caballito",
+        "direccion":"Juan B. Justo 590",
+        "localidad":"Caballito"
+    },
+    
+    {
+        "id":2, 
+        "nombre":"San Miguel",
+        "direccion":"Paunero 1432",
+        "localidad":"San Miguel"
+    },
+    
+    {
+        "id":3, 
+        "nombre":"Moreno",
+        "direccion":"Ruta 23 3456",
+        "localidad":"Moreno"
+    },
+
+    {
+        "id":4, 
+        "nombre":"Belgrano",
+        "direccion":"Maestro Ferreyra 1853",
+        "localidad":"Caba"
+    }
+]
