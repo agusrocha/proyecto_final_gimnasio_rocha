@@ -227,3 +227,12 @@ h4{
     border: outset white;
     margin: 10px 35% 5px 35%;    
 }
+/* MEDIA QUERIES */
+@media (min-width: 800px) and (max-width:1920px){
+    .navMenu{
+        font-size: 30px;
+    }
+    .link a{
+        font-size: 30px;
+    }
+}
