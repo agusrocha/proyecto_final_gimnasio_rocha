@@ -120,7 +120,7 @@ function sucursales(respuesta, estado) {
     }
 }
 //Url de sucursales por JSON
-const JSONSUCURSAL = "https://github.com/agusrocha/proyecto_final_gimnasio_rocha/blob/main/datos.json";
+const JSONSUCURSAL = "https://agusrocha.github.io/proyecto_final_gimnasio_rocha/datos.json";
 //Agrego titulo a las respuestas
 $("#sucursal").prepend(`<h4>Sucursales</h4>`)
 //Llmada con el metodo GET de jquery
